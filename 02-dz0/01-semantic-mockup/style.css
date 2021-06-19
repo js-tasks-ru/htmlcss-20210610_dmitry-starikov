@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+header, footer{
+    text-align: center;
+}
+header{
+    background-color: red;
+}
+nav{
+    background-color: orange;
+}
+h1, nav ul li, footer p{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+nav ul li{
+    font-size: 20px;
+    padding: 5px;
+}
+a{
+    cursor: pointer;
+}
+nav ul li:nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav ul li:hover{
+    background-color: red;
+    border-radius: 5px;
+}
+main{
+    background-color: green;
+    padding: 15px;
+}
+article{
+    background-color: blue;
+    padding: 20px;
+    border-radius: 15px;
+}
+article:first-child{
+    margin-bottom: 5px;
+}
+article:last-child{
+    margin-top: 5px;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+article ul, article ol{
+    margin: 25px;
+}
+footer{
+    background-color: violet;
+}
+footer p{
+    font-size: 35px;
+}
